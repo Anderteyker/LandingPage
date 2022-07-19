@@ -48,7 +48,7 @@ display: flex;
 justify-content: center;
 }
 
-.content {
+.text {
 max-width: 1400px;
 
 }
@@ -69,12 +69,12 @@ margin: 70px 10px 80px 50px;
 
 }
 
-.hi___content {
+.hi___text {
 display: flex;
 
 }
 
-.TopContent {
+.TopText {
 margin: 60px 0 0 0;
 padding-right: 200px;
 }
@@ -131,7 +131,27 @@ padding-left: 10px;
 	
   }
   
-  .button2:hover {
-  }
-  
- 
+.content___information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.content___pictures {
+	display: flex;
+
+}
+
+.content___column {
+	flex: 0 1 20%;
+
+}
+ .content {
+	display: flex;
+ }
+
+.item-about___icon {
+	max-width: 300px;
+	flex: 0 1 50%;
+}
