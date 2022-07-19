@@ -41,17 +41,28 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 font-family: sans-serif;
 }
 
+.ContentLimiter{
+	flex: 1 1 auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
 .header {
-margin: 0px auto;
-background-color: #1f2937;
-display: flex;
-justify-content: center;
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
 }
 
-.text {
-max-width: 1400px;
-
+.container {
+	max-width: 1400px;
+	margin: 0px auto;
 }
+
 
 .TopBar {
 display: flex;
@@ -154,4 +165,20 @@ padding-left: 10px;
 .item-about___icon {
 	max-width: 300px;
 	flex: 0 1 50%;
+}
+
+.footer {
+	background-color: #1f2937;
+}
+
+.footer___row {
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer___text {
+	font-size: 18px;
+	color: #e5e7eb;
 }
